@@ -5,8 +5,8 @@ export default defineNuxtConfig({
     },
     supabase: {
         redirect: false,
-        url: "",
-        key: ""
+        url: process.env.SUPABASAE_URL,
+        key: process.env.SUPABASE_KEY
     },
     ssr: false,
     typescript: {
